@@ -19,8 +19,12 @@
 		9A564BB8225728580093DAF1 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BB7225728580093DAF1 /* LoginScreen.swift */; };
 		9A564BBA2257287E0093DAF1 /* XCUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BB92257287E0093DAF1 /* XCUITestCase.swift */; };
 		9A564BBC225728D40093DAF1 /* LoginSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BBB225728D40093DAF1 /* LoginSpec.swift */; };
-		9A564BC12259E2AD0093DAF1 /* DataTableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BC02259E2AD0093DAF1 /* DataTableSpec.swift */; };
 		9A564BC32259E3940093DAF1 /* TableScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BC22259E3940093DAF1 /* TableScreen.swift */; };
+		9A66DB0D225A01B8003D70F4 /* TableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A66DB0C225A01B8003D70F4 /* TableSpec.swift */; };
+		9A66DB14225A01BE003D70F4 /* ScreenActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BB52257272D0093DAF1 /* ScreenActions.swift */; };
+		9A66DB15225A01C0003D70F4 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BB7225728580093DAF1 /* LoginScreen.swift */; };
+		9A66DB16225A01C2003D70F4 /* TableScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BC22259E3940093DAF1 /* TableScreen.swift */; };
+		9A66DB17225A01FF003D70F4 /* XCUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BB92257287E0093DAF1 /* XCUITestCase.swift */; };
 		B006CC3A20DD055700492055 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3620DD055700492055 /* RxCocoa.framework */; };
 		B006CC3B20DD055700492055 /* RxGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3720DD055700492055 /* RxGesture.framework */; };
 		B006CC3C20DD055700492055 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3820DD055700492055 /* RxSwift.framework */; };
@@ -60,6 +64,13 @@
 			remoteGlobalIDString = B077850D2033045700976A2F;
 			remoteInfo = LoginDemoRxRedux;
 		};
+		9A66DB0F225A01B8003D70F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B07785062033045700976A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B077850D2033045700976A2F;
+			remoteInfo = LoginDemoRxRedux;
+		};
 		B07785232033045700976A2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B07785062033045700976A2F /* Project object */;
@@ -86,8 +97,10 @@
 		9A564BB92257287E0093DAF1 /* XCUITestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestCase.swift; sourceTree = "<group>"; };
 		9A564BBB225728D40093DAF1 /* LoginSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSpec.swift; sourceTree = "<group>"; };
 		9A564BBD2259CCB40093DAF1 /* LocalServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalServer.framework; path = Carthage/Build/iOS/LocalServer.framework; sourceTree = "<group>"; };
-		9A564BC02259E2AD0093DAF1 /* DataTableSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableSpec.swift; sourceTree = "<group>"; };
 		9A564BC22259E3940093DAF1 /* TableScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreen.swift; sourceTree = "<group>"; };
+		9A66DB0A225A01B8003D70F4 /* UITableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A66DB0C225A01B8003D70F4 /* TableSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSpec.swift; sourceTree = "<group>"; };
+		9A66DB0E225A01B8003D70F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B006CC3520DD055700492055 /* RxAutomaton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAutomaton.framework; path = Carthage/Build/iOS/RxAutomaton.framework; sourceTree = "<group>"; };
 		B006CC3620DD055700492055 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		B006CC3720DD055700492055 /* RxGesture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxGesture.framework; path = Carthage/Build/iOS/RxGesture.framework; sourceTree = "<group>"; };
@@ -126,6 +139,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		9A564BA5225726700093DAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A66DB07225A01B8003D70F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,7 +230,6 @@
 			isa = PBXGroup;
 			children = (
 				9A564BBB225728D40093DAF1 /* LoginSpec.swift */,
-				9A564BC02259E2AD0093DAF1 /* DataTableSpec.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -225,12 +244,30 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
+		9A66DB0B225A01B8003D70F4 /* UITableTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A66DB18225A0371003D70F4 /* Features */,
+				9A66DB0E225A01B8003D70F4 /* Info.plist */,
+			);
+			path = UITableTests;
+			sourceTree = "<group>";
+		};
+		9A66DB18225A0371003D70F4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9A66DB0C225A01B8003D70F4 /* TableSpec.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 		B07785052033045700976A2F = {
 			isa = PBXGroup;
 			children = (
 				B07785102033045700976A2F /* LoginDemoRxRedux */,
 				B07785252033045700976A2F /* LoginDemoRxReduxTests */,
 				9A564BA9225726700093DAF1 /* LoginDemoRxReduxUITests */,
+				9A66DB0B225A01B8003D70F4 /* UITableTests */,
 				B077850F2033045700976A2F /* Products */,
 				B3AC00998A9BB04A6A48DAFF /* Frameworks */,
 			);
@@ -242,6 +279,7 @@
 				B077850E2033045700976A2F /* LoginDemoRxRedux.app */,
 				B07785222033045700976A2F /* LoginDemoRxReduxTests.xctest */,
 				9A564BA8225726700093DAF1 /* LoginDemoRxReduxUITests.xctest */,
+				9A66DB0A225A01B8003D70F4 /* UITableTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -386,6 +424,24 @@
 			productReference = 9A564BA8225726700093DAF1 /* LoginDemoRxReduxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		9A66DB09225A01B8003D70F4 /* UITableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A66DB11225A01B8003D70F4 /* Build configuration list for PBXNativeTarget "UITableTests" */;
+			buildPhases = (
+				9A66DB06225A01B8003D70F4 /* Sources */,
+				9A66DB07225A01B8003D70F4 /* Frameworks */,
+				9A66DB08225A01B8003D70F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A66DB10225A01B8003D70F4 /* PBXTargetDependency */,
+			);
+			name = UITableTests;
+			productName = UITableTests;
+			productReference = 9A66DB0A225A01B8003D70F4 /* UITableTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		B077850D2033045700976A2F /* LoginDemoRxRedux */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B077852B2033045700976A2F /* Build configuration list for PBXNativeTarget "LoginDemoRxRedux" */;
@@ -436,6 +492,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = B077850D2033045700976A2F;
 					};
+					9A66DB09225A01B8003D70F4 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B077850D2033045700976A2F;
+					};
 					B077850D2033045700976A2F = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1000;
@@ -465,12 +526,20 @@
 				B077850D2033045700976A2F /* LoginDemoRxRedux */,
 				B07785212033045700976A2F /* LoginDemoRxReduxTests */,
 				9A564BA7225726700093DAF1 /* LoginDemoRxReduxUITests */,
+				9A66DB09225A01B8003D70F4 /* UITableTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9A564BA6225726700093DAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A66DB08225A01B8003D70F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -526,9 +595,20 @@
 				9A564BC32259E3940093DAF1 /* TableScreen.swift in Sources */,
 				9A564BBC225728D40093DAF1 /* LoginSpec.swift in Sources */,
 				9A564BB62257272D0093DAF1 /* ScreenActions.swift in Sources */,
-				9A564BC12259E2AD0093DAF1 /* DataTableSpec.swift in Sources */,
 				9A564BBA2257287E0093DAF1 /* XCUITestCase.swift in Sources */,
 				9A564BB8225728580093DAF1 /* LoginScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A66DB06225A01B8003D70F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A66DB16225A01C2003D70F4 /* TableScreen.swift in Sources */,
+				9A66DB0D225A01B8003D70F4 /* TableSpec.swift in Sources */,
+				9A66DB14225A01BE003D70F4 /* ScreenActions.swift in Sources */,
+				9A66DB17225A01FF003D70F4 /* XCUITestCase.swift in Sources */,
+				9A66DB15225A01C0003D70F4 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +654,11 @@
 			isa = PBXTargetDependency;
 			target = B077850D2033045700976A2F /* LoginDemoRxRedux */;
 			targetProxy = 9A564BAD225726700093DAF1 /* PBXContainerItemProxy */;
+		};
+		9A66DB10225A01B8003D70F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B077850D2033045700976A2F /* LoginDemoRxRedux */;
+			targetProxy = 9A66DB0F225A01B8003D70F4 /* PBXContainerItemProxy */;
 		};
 		B07785242033045700976A2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -630,6 +715,41 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = ui.LoginDemoRxReduxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoginDemoRxRedux;
+			};
+			name = Release;
+		};
+		9A66DB12225A01B8003D70F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ui.UITableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoginDemoRxRedux;
+			};
+			name = Debug;
+		};
+		9A66DB13225A01B8003D70F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ui.UITableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -836,6 +956,15 @@
 			buildConfigurations = (
 				9A564BAF225726700093DAF1 /* Debug */,
 				9A564BB0225726700093DAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A66DB11225A01B8003D70F4 /* Build configuration list for PBXNativeTarget "UITableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A66DB12225A01B8003D70F4 /* Debug */,
+				9A66DB13225A01B8003D70F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

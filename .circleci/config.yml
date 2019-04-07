@@ -13,13 +13,13 @@ jobs:
     steps:
       - checkout
 
-      # Install CocoaPods
+      # Install Carthage
       - run:
-          name: Install Carthage
+          name: Upgrade Carthage
           command: brew upgrade carthage
 
       - run:
-          name: Install Carthage
+          name: Carthage bootstrap
           command: carthage bootstrap --platform ios --no-use-binaries
 
       # Build the app and run tests
@@ -34,7 +34,7 @@ jobs:
       # and save the same XML files under test-results folder
       # in the Artifacts tab
       - store_test_results:
-           path: "./fastlane/test_output"
+           path: "/fastlane/test_output"
       - store_artifacts:
           path: /tmp/test-results
           destination: scan-test-results

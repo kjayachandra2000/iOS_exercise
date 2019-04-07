@@ -48,6 +48,26 @@
                ReferencedContainer = "container:LoginDemoRxRedux.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9A66DAF7225A0147003D70F4"
+               BuildableName = "LoginDemoRxReduxUITableTests.xctest"
+               BlueprintName = "LoginDemoRxReduxUITableTests"
+               ReferencedContainer = "container:LoginDemoRxRedux.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9A66DB09225A01B8003D70F4"
+               BuildableName = "UITableTests.xctest"
+               BlueprintName = "UITableTests"
+               ReferencedContainer = "container:LoginDemoRxRedux.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

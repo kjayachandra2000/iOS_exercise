@@ -30,7 +30,7 @@ platform :ios do
   lane :ui_tests do
     scan(
               devices: ["iPhone XS"],
-              only_testing: "LoginDemoRxReduxUITests",
+              only_testing: "LoginDemoRxReduxUITests,UITableTests",
               scheme: "LoginDemoRxRedux",
               clean:true
               )

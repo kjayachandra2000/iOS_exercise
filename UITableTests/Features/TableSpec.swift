@@ -1,6 +1,6 @@
 import XCTest
 
-final class DataTableSpec:XCUITestCase{
+class TableSpec: XCUITestCase {
     
     func testCountOfRecords() {
         
@@ -14,4 +14,5 @@ final class DataTableSpec:XCUITestCase{
             .refresh()
             .verifyNewTitlesPopulated()
     }
+    
 }
