@@ -1,5 +1,4 @@
 import XCTest
-import LocalServer
 
 class XCUITestCase: XCTestCase {
     
