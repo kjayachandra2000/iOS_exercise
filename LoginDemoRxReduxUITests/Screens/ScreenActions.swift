@@ -19,7 +19,7 @@ class ScreenActions {
     
     @discardableResult
     func waitForAppToLoad() -> ScreenActions {
-        let activityIndicator = app.otherElements["GSR Spinner"]
+        let activityIndicator = app.activityIndicators["In progress"]
         let expectation = XCTNSPredicateExpectation(predicate: NSPredicate(format: UIState.exist.rawValue), object: activityIndicator)
         _ = XCTWaiter.wait(for: [expectation], timeout: TimeInterval(4))
         waitFor(activityIndicator, status: .notExist, 16)

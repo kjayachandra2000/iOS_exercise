@@ -19,6 +19,8 @@
 		9A564BB8225728580093DAF1 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BB7225728580093DAF1 /* LoginScreen.swift */; };
 		9A564BBA2257287E0093DAF1 /* XCUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BB92257287E0093DAF1 /* XCUITestCase.swift */; };
 		9A564BBC225728D40093DAF1 /* LoginSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BBB225728D40093DAF1 /* LoginSpec.swift */; };
+		9A564BC12259E2AD0093DAF1 /* DataTableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BC02259E2AD0093DAF1 /* DataTableSpec.swift */; };
+		9A564BC32259E3940093DAF1 /* TableScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BC22259E3940093DAF1 /* TableScreen.swift */; };
 		B006CC3A20DD055700492055 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3620DD055700492055 /* RxCocoa.framework */; };
 		B006CC3B20DD055700492055 /* RxGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3720DD055700492055 /* RxGesture.framework */; };
 		B006CC3C20DD055700492055 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3820DD055700492055 /* RxSwift.framework */; };
@@ -84,6 +86,8 @@
 		9A564BB92257287E0093DAF1 /* XCUITestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestCase.swift; sourceTree = "<group>"; };
 		9A564BBB225728D40093DAF1 /* LoginSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSpec.swift; sourceTree = "<group>"; };
 		9A564BBD2259CCB40093DAF1 /* LocalServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalServer.framework; path = Carthage/Build/iOS/LocalServer.framework; sourceTree = "<group>"; };
+		9A564BC02259E2AD0093DAF1 /* DataTableSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableSpec.swift; sourceTree = "<group>"; };
+		9A564BC22259E3940093DAF1 /* TableScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreen.swift; sourceTree = "<group>"; };
 		B006CC3520DD055700492055 /* RxAutomaton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAutomaton.framework; path = Carthage/Build/iOS/RxAutomaton.framework; sourceTree = "<group>"; };
 		B006CC3620DD055700492055 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		B006CC3720DD055700492055 /* RxGesture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxGesture.framework; path = Carthage/Build/iOS/RxGesture.framework; sourceTree = "<group>"; };
@@ -206,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				9A564BBB225728D40093DAF1 /* LoginSpec.swift */,
+				9A564BC02259E2AD0093DAF1 /* DataTableSpec.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 			children = (
 				9A564BB52257272D0093DAF1 /* ScreenActions.swift */,
 				9A564BB7225728580093DAF1 /* LoginScreen.swift */,
+				9A564BC22259E3940093DAF1 /* TableScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -517,8 +523,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A564BC32259E3940093DAF1 /* TableScreen.swift in Sources */,
 				9A564BBC225728D40093DAF1 /* LoginSpec.swift in Sources */,
 				9A564BB62257272D0093DAF1 /* ScreenActions.swift in Sources */,
+				9A564BC12259E2AD0093DAF1 /* DataTableSpec.swift in Sources */,
 				9A564BBA2257287E0093DAF1 /* XCUITestCase.swift in Sources */,
 				9A564BB8225728580093DAF1 /* LoginScreen.swift in Sources */,
 			);
