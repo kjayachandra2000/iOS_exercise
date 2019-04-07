@@ -15,8 +15,8 @@ jobs:
 
       # Install CocoaPods
       - run:
-          name: Install CocoaPods
-          command: brew install carthage
+          name: Install Carthage
+          command: brew upgrade carthage
 
       # Build the app and run tests
       - run:
