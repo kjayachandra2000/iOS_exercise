@@ -20,11 +20,14 @@
 		9A564BBA2257287E0093DAF1 /* XCUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BB92257287E0093DAF1 /* XCUITestCase.swift */; };
 		9A564BBC225728D40093DAF1 /* LoginSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BBB225728D40093DAF1 /* LoginSpec.swift */; };
 		9A564BC32259E3940093DAF1 /* TableScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BC22259E3940093DAF1 /* TableScreen.swift */; };
+		9A62FA85225B7B63003DC62A /* LocalServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A564BBD2259CCB40093DAF1 /* LocalServer.framework */; };
+		9A62FA8B225B7F74003DC62A /* table.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A62FA8A225B7F74003DC62A /* table.json */; };
 		9A66DB0D225A01B8003D70F4 /* TableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A66DB0C225A01B8003D70F4 /* TableSpec.swift */; };
 		9A66DB14225A01BE003D70F4 /* ScreenActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BB52257272D0093DAF1 /* ScreenActions.swift */; };
 		9A66DB15225A01C0003D70F4 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BB7225728580093DAF1 /* LoginScreen.swift */; };
 		9A66DB16225A01C2003D70F4 /* TableScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BC22259E3940093DAF1 /* TableScreen.swift */; };
 		9A66DB17225A01FF003D70F4 /* XCUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564BB92257287E0093DAF1 /* XCUITestCase.swift */; };
+		9A986A32225B8372000AEC8D /* table.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A62FA8A225B7F74003DC62A /* table.json */; };
 		B006CC3A20DD055700492055 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3620DD055700492055 /* RxCocoa.framework */; };
 		B006CC3B20DD055700492055 /* RxGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3720DD055700492055 /* RxGesture.framework */; };
 		B006CC3C20DD055700492055 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3820DD055700492055 /* RxSwift.framework */; };
@@ -98,6 +101,7 @@
 		9A564BBB225728D40093DAF1 /* LoginSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSpec.swift; sourceTree = "<group>"; };
 		9A564BBD2259CCB40093DAF1 /* LocalServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalServer.framework; path = Carthage/Build/iOS/LocalServer.framework; sourceTree = "<group>"; };
 		9A564BC22259E3940093DAF1 /* TableScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreen.swift; sourceTree = "<group>"; };
+		9A62FA8A225B7F74003DC62A /* table.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = table.json; sourceTree = "<group>"; };
 		9A66DB0A225A01B8003D70F4 /* UITableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A66DB0C225A01B8003D70F4 /* TableSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSpec.swift; sourceTree = "<group>"; };
 		9A66DB0E225A01B8003D70F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A62FA85225B7B63003DC62A /* LocalServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +215,7 @@
 		9A564BA9225726700093DAF1 /* LoginDemoRxReduxUITests */ = {
 			isa = PBXGroup;
 			children = (
+				9A62FA89225B7F53003DC62A /* Mocks */,
 				9A564BB4225727140093DAF1 /* Screens */,
 				9A564BB32257270C0093DAF1 /* Features */,
 				9A564BB2225727040093DAF1 /* Support */,
@@ -242,6 +248,14 @@
 				9A564BC22259E3940093DAF1 /* TableScreen.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		9A62FA89225B7F53003DC62A /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				9A62FA8A225B7F74003DC62A /* table.json */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		9A66DB0B225A01B8003D70F4 /* UITableTests */ = {
@@ -413,6 +427,7 @@
 				9A564BA4225726700093DAF1 /* Sources */,
 				9A564BA5225726700093DAF1 /* Frameworks */,
 				9A564BA6225726700093DAF1 /* Resources */,
+				9A62FA88225B7C81003DC62A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -431,6 +446,7 @@
 				9A66DB06225A01B8003D70F4 /* Sources */,
 				9A66DB07225A01B8003D70F4 /* Frameworks */,
 				9A66DB08225A01B8003D70F4 /* Resources */,
+				9A62FA86225B7C09003DC62A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -536,6 +552,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A62FA8B225B7F74003DC62A /* table.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +560,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A986A32225B8372000AEC8D /* table.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,9 +576,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B0714DF7216621D200A2B0D8 /* Carthage */ = {
+		9A62FA86225B7C09003DC62A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/LocalServer.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		9A62FA88225B7C81003DC62A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/LocalServer.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		B0714DF7216621D200A2B0D8 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -575,6 +629,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/LocalServer.framework",
 			);
 			name = Carthage;
 			outputFileListPaths = (
@@ -689,7 +744,6 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = LoginDemoRxReduxUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -711,7 +765,6 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = LoginDemoRxReduxUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = ui.LoginDemoRxReduxUITests;
@@ -727,8 +780,11 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = UITableTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -745,8 +801,11 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = UITableTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = ui.UITableTests;
@@ -807,7 +866,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -860,7 +918,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

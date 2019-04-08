@@ -13,6 +13,5 @@ class TableSpec: XCUITestCase {
             .fetchTitles()
             .refresh()
             .verifyNewTitlesPopulated()
-    }
-    
+    }    
 }

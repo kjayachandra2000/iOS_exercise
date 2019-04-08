@@ -36,6 +36,11 @@ Runs all ui tests
 fastlane ios unit_tests
 ```
 Runs all unit tests
+### ios mock_ui_tests
+```
+fastlane ios mock_ui_tests
+```
+Runs all ui tests
 
 ----
 

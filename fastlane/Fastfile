@@ -45,4 +45,14 @@ platform :ios do
               clean:true
               )
   end
+
+  desc "Runs all mock ui tests"
+  lane :mock_ui_tests do
+    scan(
+              devices: ["iPhone XS"],
+              only_testing: "LoginDemoRxReduxUITests,UITableTests",
+              scheme: "LoginDemoRxReduxMock",
+              clean:true
+              )
+  end
 end

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LocalServer
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        startUITests()
+        
         DependencyRetriever.setupDependencies()
         window = UIWindow(frame: UIScreen.main.bounds)
         let controller = LoginViewController()
@@ -21,6 +25,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         return true
     }
+    
+    func startUITests() {
+        if ProcessInfo().arguments.contains("-UITest"){
+            UITestServer.resetAll()
+            UITestServer.start()
+        }
+    }
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

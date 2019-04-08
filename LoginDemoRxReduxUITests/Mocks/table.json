@@ -1,0 +1,890 @@
+[
+    {
+        "_id": "56ffc5be043244081938576d",
+        "male": true,
+        "house": "Local Mock Name 1",
+        "slug": "Local Mock Name 1",
+        "name": "Local Mock Name 1",
+        "__v": 0,
+        "pageRank": 2.5,
+        "books": [
+            "Local Mock Name 1"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.834Z",
+        "createdAt": "2016-04-02T13:14:38.834Z",
+        "titles": [
+            "Ser"
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938576e",
+        "male": true,
+        "house": "Local Mock Name 2",
+        "slug": "Local Mock Name 2",
+        "name": "Local Mock Name 2",
+        "__v": 0,
+        "pageRank": 4.5,
+        "books": [
+            "Local Mock Name 2"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.875Z",
+        "createdAt": "2016-04-02T13:14:38.875Z",
+        "titles": [
+            "Ser"
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938576f",
+        "male": true,
+        "slug": "Local Mock Name 3",
+        "name": "Local Mock Name 3",
+        "__v": 0,
+        "pageRank": 1.5,
+        "books": [
+            "Local Mock Name 3"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.877Z",
+        "createdAt": "2016-04-02T13:14:38.877Z",
+        "titles": [
+            "Ser"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385770",
+        "dateOfDeath": 196,
+        "dateOfBirth": 183,
+        "male": true,
+        "house": "Local Mock Name 4",
+        "slug": "Local Mock Name 4",
+        "name": "Local Mock Name 4",
+        "__v": 0,
+        "pageRank": 6,
+        "books": [
+            "Local Mock Name 4"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.878Z",
+        "createdAt": "2016-04-02T13:14:38.878Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385771",
+        "imageLink": "/misc/images/characters/Addam_Marbrand.jpeg",
+        "male": true,
+        "house": "Local Mock Name 5",
+        "slug": "Local Mock Name 5",
+        "name": "Local Mock Name 5",
+        "__v": 0,
+        "pageRank": 40,
+        "books": [
+            "Local Mock Name 5",
+            "Local Mock Name 5",
+            "Local Mock Name 5",
+            "Local Mock Name 5",
+            "Local Mock Name 5"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.883Z",
+        "createdAt": "2016-04-02T13:14:38.883Z",
+        "titles": [
+            "Ser",
+            "Commander of the City Watch"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385772",
+        "male": true,
+        "house": "Local Mock Name 6",
+        "slug": "Local Mock Name 6",
+        "name": "Local Mock Name 6",
+        "__v": 0,
+        "pageRank": 40.5,
+        "books": [
+            "Local Mock Name 6",
+            "Local Mock Name 6"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.886Z",
+        "createdAt": "2016-04-02T13:14:38.886Z",
+        "titles": [
+            "Ser",
+            "Lord Commander of the Kingsguard"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385773",
+        "dateOfDeath": 196,
+        "dateOfBirth": 184,
+        "imageLink": "/misc/images/characters/Aegon_Blackfyre.jpeg",
+        "male": true,
+        "culture": "Valyrian",
+        "house": "Local Mock Name 7",
+        "slug": "Local Mock Name 7",
+        "name": "Local Mock Name 7",
+        "__v": 0,
+        "pageRank": 26,
+        "books": [
+            "Local Mock Name 7",
+            "Local Mock Name 7",
+            "Local Mock Name 7"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.887Z",
+        "createdAt": "2016-04-02T13:14:38.887Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385774",
+        "dateOfDeath": 130,
+        "dateOfBirth": 114,
+        "imageLink": "/misc/images/characters/Addam_Velaryon.jpeg",
+        "male": true,
+        "culture": "Valyrian",
+        "house": "Local Mock Name 8",
+        "slug": "Local Mock Name 8",
+        "name": "Local Mock Name 8",
+        "__v": 0,
+        "pageRank": 33,
+        "books": [
+            "Local Mock Name 8",
+            "Local Mock Name 8"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.888Z",
+        "createdAt": "2016-04-02T13:14:38.888Z",
+        "titles": [
+            "Ser"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385775",
+        "dateOfBirth": 253,
+        "male": true,
+        "house": "Local Mock Name 9",
+        "slug": "Local Mock Name 9",
+        "name": "Local Mock Name 9",
+        "__v": 0,
+        "books": [
+            "Local Mock Name 9",
+            "Local Mock Name 9",
+            "Local Mock Name 9",
+            "Local Mock Name 9"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.890Z",
+        "createdAt": "2016-04-02T13:14:38.890Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385776",
+        "dateOfDeath": 299,
+        "dateOfBirth": 249,
+        "imageLink": "/misc/images/characters/Aegon_Frey_(son_of_Stevron).jpeg",
+        "male": true,
+        "house": "House Frey",
+        "slug": "Local Mock Name 10",
+        "name": "Local Mock Name 10",
+        "__v": 0,
+        "books": [
+            "A Clash of Kings",
+            "A Storm of Swords",
+            "A Feast for Crows"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.890Z",
+        "createdAt": "2016-04-02T13:14:38.890Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385777",
+        "dateOfDeath": 37,
+        "dateOfBirth": -27,
+        "imageLink": "/misc/images/characters/Aegon_I_Targaryen.jpeg",
+        "male": true,
+        "mother": "Valaena Velaryon",
+        "father": "Aerion Targaryen",
+        "heir": "Aenys Targaryen",
+        "house": "House Targaryen",
+        "slug": "Local Mock Name 11",
+        "name": "Local Mock Name 11",
+        "__v": 0,
+        "pageRank": 300,
+        "books": [
+            
+        ],
+        "updatedAt": "2016-04-02T13:14:38.892Z",
+        "createdAt": "2016-04-02T13:14:38.892Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385778",
+        "dateOfDeath": 131,
+        "dateOfBirth": 107,
+        "imageLink": "/misc/images/characters/Aegon_II_Targaryen.jpeg",
+        "male": true,
+        "mother": "Alicent Hightower",
+        "father": "Viserys I Targaryen",
+        "heir": "Jaehaerys Targaryen",
+        "house": "House Targaryen",
+        "slug": "Local Mock Name 12",
+        "name": "Local Mock Name 12",
+        "__v": 0,
+        "pageRank": 228,
+        "books": [
+            
+        ],
+        "updatedAt": "2016-04-02T13:14:38.893Z",
+        "createdAt": "2016-04-02T13:14:38.893Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385779",
+        "dateOfDeath": 184,
+        "dateOfBirth": 135,
+        "imageLink": "/misc/images/characters/Aegon_IV_Targaryen.jpeg",
+        "male": true,
+        "heir": "Daeron II Targaryen",
+        "house": "House Targaryen",
+        "slug": "Local Mock Name 13",
+        "name": "Local Mock Name 13",
+        "__v": 0,
+        "pageRank": 203,
+        "books": [
+            
+        ],
+        "updatedAt": "2016-04-02T13:14:38.895Z",
+        "createdAt": "2016-04-02T13:14:38.895Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938577a",
+        "dateOfDeath": 259,
+        "dateOfBirth": 200,
+        "imageLink": "/misc/images/characters/Aegon_V_Targaryen.jpeg",
+        "male": true,
+        "mother": "Dyanna Dayne",
+        "father": "Maekar I Targaryen",
+        "heir": "Duncan Targaryen",
+        "house": "House Targaryen",
+        "slug": "Local Mock Name 14",
+        "name": "Local Mock Name 14",
+        "__v": 0,
+        "pageRank": 209,
+        "books": [
+            
+        ],
+        "updatedAt": "2016-04-02T13:14:38.896Z",
+        "createdAt": "2016-04-02T13:14:38.896Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938577b",
+        "dateOfDeath": 157,
+        "dateOfBirth": 120,
+        "imageLink": "/misc/images/characters/Aegon_III_Targaryen.jpeg",
+        "male": true,
+        "mother": "Rhaenyra Targaryen",
+        "father": "Daemon Targaryen",
+        "heir": "Daeron I Targaryen",
+        "house": "House Targaryen",
+        "culture": "Valyrian",
+        "slug": "Local Mock Name 15",
+        "name": "Local Mock Name 15",
+        "__v": 0,
+        "pageRank": 188,
+        "books": [
+            
+        ],
+        "updatedAt": "2016-04-02T13:14:38.897Z",
+        "createdAt": "2016-04-02T13:14:38.897Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938577c",
+        "male": true,
+        "culture": "Valyrian",
+        "house": "House Targaryen",
+        "slug": "Local Mock Name 16",
+        "name": "Local Mock Name 16",
+        "__v": 0,
+        "pageRank": 11.5,
+        "books": [
+            "The World of Ice and Fire"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.899Z",
+        "createdAt": "2016-04-02T13:14:38.899Z",
+        "titles": [
+            "Prince"
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938577d",
+        "dateOfDeath": 43,
+        "dateOfBirth": 26,
+        "imageLink": "/misc/images/characters/Aegon_Targaryen_(son_of_Aenys_I).jpeg",
+        "male": true,
+        "spouse": "Rhaena Targaryen",
+        "culture": "Valyrian",
+        "house": "House Targaryen",
+        "slug": "Local Mock Name 17",
+        "name": "ALocal Mock Name 17",
+        "__v": 0,
+        "pageRank": 194,
+        "books": [
+            "The World of Ice and Fire"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.900Z",
+        "createdAt": "2016-04-02T13:14:38.900Z",
+        "titles": [
+            "Prince"
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938577e",
+        "dateOfBirth": 50,
+        "male": true,
+        "culture": "Valyrian",
+        "house": "House Targaryen",
+        "slug": "Local Mock Name 18",
+        "name": "Local Mock Name 18",
+        "__v": 0,
+        "books": [
+            "The World of Ice and Fire"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.901Z",
+        "createdAt": "2016-04-02T13:14:38.901Z",
+        "titles": [
+            "Prince"
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938577f",
+        "dateOfDeath": 283,
+        "dateOfBirth": 281,
+        "imageLink": "/misc/images/characters/Aegon_Targaryen_(son_of_Rhaegar).jpeg",
+        "male": true,
+        "culture": "Valyrian",
+        "house": "House Targaryen",
+        "slug": "Aegon_Targaryen_(son_of_Rhaegar)",
+        "name": "Aegon Targaryen (son of Rhaegar)",
+        "__v": 0,
+        "books": [
+            "The World of Ice and Fire",
+            "A Game of Thrones",
+            "A Clash of Kings",
+            "A Storm of Swords",
+            "A Feast for Crows",
+            "A Dance with Dragons"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.902Z",
+        "createdAt": "2016-04-02T13:14:38.902Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385780",
+        "dateOfDeath": 241,
+        "dateOfBirth": 172,
+        "imageLink": "/misc/images/characters/Aegor_Rivers.jpeg",
+        "male": true,
+        "spouse": "Calla Blackfyre",
+        "house": "House Bracken",
+        "slug": "Aegor_Rivers",
+        "name": "Aegor Rivers",
+        "__v": 0,
+        "pageRank": 64,
+        "books": [
+            "The Sworn Sword",
+            "The Mystery Knight",
+            "A Feast for Crows",
+            "A Dance with Dragons",
+            "The World of Ice and Fire"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.903Z",
+        "createdAt": "2016-04-02T13:14:38.903Z",
+        "titles": [
+            "Ser"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385781",
+        "male": true,
+        "house": "House Costayne",
+        "slug": "Aemon_Costayne",
+        "name": "Aemon Costayne",
+        "__v": 0,
+        "pageRank": 2,
+        "books": [
+            "A Storm of Swords"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.904Z",
+        "createdAt": "2016-04-02T13:14:38.904Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385782",
+        "male": true,
+        "culture": "Stormlands",
+        "house": "House Estermont",
+        "slug": "Aemon_Estermont",
+        "name": "Aemon Estermont",
+        "__v": 0,
+        "pageRank": 5,
+        "books": [
+            "A Clash of Kings",
+            "A Storm of Swords",
+            "A Feast for Crows",
+            "A Dance with Dragons"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.905Z",
+        "createdAt": "2016-04-02T13:14:38.905Z",
+        "titles": [
+            "Ser"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385783",
+        "dateOfDeath": 105,
+        "dateOfBirth": 82,
+        "male": false,
+        "spouse": "Viserys I Targaryen",
+        "house": "House Arryn",
+        "slug": "Aemma_Arryn",
+        "name": "Aemma Arryn",
+        "__v": 0,
+        "pageRank": 3,
+        "books": [
+            "The World of Ice and Fire",
+            "The Rogue Prince",
+            "The Princess and the Queen"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.905Z",
+        "createdAt": "2016-04-02T13:14:38.905Z",
+        "titles": [
+            "Queen"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385784",
+        "male": true,
+        "spouse": "Aerys I Targaryen",
+        "house": "House Penrose",
+        "slug": "Aelinor_Penrose",
+        "name": "Aelinor Penrose",
+        "__v": 0,
+        "pageRank": 25,
+        "books": [
+            "The World of Ice and Fire",
+            "The Sworn Sword"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.906Z",
+        "createdAt": "2016-04-02T13:14:38.906Z",
+        "titles": [
+            "Lady",
+            "Queen"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385785",
+        "dateOfDeath": 196,
+        "dateOfBirth": 184,
+        "imageLink": "/misc/images/characters/Aemon_Blackfyre.jpeg",
+        "male": true,
+        "culture": "Valyrian",
+        "house": "House Blackfyre",
+        "slug": "Aemon_Blackfyre",
+        "name": "Aemon Blackfyre",
+        "__v": 0,
+        "pageRank": 27,
+        "books": [
+            "The Sworn Sword",
+            "The Mystery Knight",
+            "A Storm of Swords"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.907Z",
+        "createdAt": "2016-04-02T13:14:38.907Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385786",
+        "male": true,
+        "house": "House Frey",
+        "slug": "Aemon_Rivers",
+        "name": "Aemon Rivers",
+        "__v": 0,
+        "pageRank": 5.5,
+        "books": [
+            "A Clash of Kings",
+            "A Storm of Swords",
+            "A Feast for Crows"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.908Z",
+        "createdAt": "2016-04-02T13:14:38.908Z",
+        "titles": [
+            "Ser"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385787",
+        "dateOfDeath": 300,
+        "dateOfBirth": 240,
+        "imageLink": "/misc/images/characters/Aenys_Frey.jpeg",
+        "male": true,
+        "spouse": "Tyana Wylde",
+        "house": "House Frey",
+        "slug": "Aenys_Frey",
+        "name": "Aenys Frey",
+        "__v": 0,
+        "pageRank": 45,
+        "books": [
+            "A Game of Thrones",
+            "A Clash of Kings",
+            "A Storm of Swords",
+            "A Feast for Crows",
+            "A Dance with Dragons"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.909Z",
+        "createdAt": "2016-04-02T13:14:38.909Z",
+        "titles": [
+            "Ser"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385788",
+        "dateOfDeath": 300,
+        "dateOfBirth": 198,
+        "imageLink": "/misc/images/characters/Maester_Aemon.jpeg",
+        "male": true,
+        "culture": "Valyrian",
+        "house": "Night's Watch",
+        "slug": "Maester_Aemon",
+        "name": "Maester Aemon",
+        "__v": 0,
+        "pageRank": 74,
+        "books": [
+            "The Hedge Knight",
+            "The Sworn Sword",
+            "The Mystery Knight",
+            "A Game of Thrones",
+            "A Clash of Kings",
+            "A Storm of Swords",
+            "A Feast for Crows",
+            "A Dance with Dragons"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.910Z",
+        "createdAt": "2016-04-02T13:14:38.910Z",
+        "titles": [
+            "Maester"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385789",
+        "dateOfDeath": 130,
+        "dateOfBirth": 110,
+        "imageLink": "/misc/images/characters/Aemond_Targaryen.jpeg",
+        "male": true,
+        "culture": "Valyrian",
+        "house": "House Targaryen",
+        "slug": "Aemond_Targaryen",
+        "name": "Aemond Targaryen",
+        "__v": 0,
+        "pageRank": 94,
+        "books": [
+            "The World of Ice and Fire",
+            "The Rogue Prince",
+            "The Princess and the Queen",
+            "A Dance with Dragons"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.911Z",
+        "createdAt": "2016-04-02T13:14:38.911Z",
+        "titles": [
+            "Prince",
+            "Protector of the Realm",
+            "Prince Regent"
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938578a",
+        "dateOfDeath": 232,
+        "dateOfBirth": 191,
+        "imageLink": "/misc/images/characters/Aerion_Targaryen.jpeg",
+        "male": true,
+        "spouse": "Daenora Targaryen",
+        "culture": "Valyrian",
+        "house": "House Targaryen",
+        "slug": "Aerion_Targaryen",
+        "name": "Aerion Targaryen",
+        "__v": 0,
+        "pageRank": 63,
+        "books": [
+            "The World of Ice and Fire",
+            "The Hedge Knight",
+            "The Sworn Sword",
+            "The Mystery Knight",
+            "A Clash of Kings",
+            "A Storm of Swords",
+            "A Dance with Dragons"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.913Z",
+        "createdAt": "2016-04-02T13:14:38.913Z",
+        "titles": [
+            "Prince"
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938578b",
+        "dateOfDeath": 42,
+        "dateOfBirth": 7,
+        "imageLink": "/misc/images/characters/Aenys_I_Targaryen.jpeg",
+        "male": true,
+        "mother": "Rhaenys Targaryen",
+        "father": "Aegon I Targaryen",
+        "heir": "Aegon Targaryen",
+        "house": "House Targaryen",
+        "slug": "Aenys_I_Targaryen",
+        "name": "Aenys I Targaryen",
+        "__v": 0,
+        "pageRank": 172,
+        "books": [
+            
+        ],
+        "updatedAt": "2016-04-02T13:14:38.915Z",
+        "createdAt": "2016-04-02T13:14:38.915Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938578c",
+        "male": true,
+        "house": "Night's Watch",
+        "slug": "Aethan",
+        "name": "Aethan",
+        "__v": 0,
+        "pageRank": 2,
+        "books": [
+            "A Storm of Swords"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.916Z",
+        "createdAt": "2016-04-02T13:14:38.916Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938578d",
+        "male": false,
+        "slug": "Aethelmure",
+        "name": "Aethelmure",
+        "__v": 0,
+        "pageRank": 2.5,
+        "books": [
+            "A Game of Thrones"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.916Z",
+        "createdAt": "2016-04-02T13:14:38.916Z",
+        "titles": [
+            "Grand Maester"
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938578e",
+        "dateOfBirth": 269,
+        "imageLink": "/misc/images/characters/Aeron_Greyjoy.jpeg",
+        "male": true,
+        "culture": "Ironmen",
+        "house": "House Greyjoy",
+        "slug": "Aeron_Greyjoy",
+        "name": "Aeron Greyjoy",
+        "__v": 0,
+        "pageRank": 138,
+        "books": [
+            "A Game of Thrones",
+            "A Clash of Kings",
+            "A Storm of Swords",
+            "A Feast for Crows",
+            "A Dance with Dragons",
+            "The Winds of Winter"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.917Z",
+        "createdAt": "2016-04-02T13:14:38.917Z",
+        "titles": [
+            "Priest of the Drowned God",
+            "Captain of the Golden Storm (formerly)"
+        ]
+    },
+    {
+        "_id": "56ffc5be043244081938578f",
+        "dateOfDeath": 299,
+        "male": true,
+        "house": "House Greyjoy",
+        "slug": "Aggar",
+        "name": "Aggar",
+        "__v": 0,
+        "pageRank": 4.5,
+        "books": [
+            "A Clash of Kings",
+            "A Dance with Dragons"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.919Z",
+        "createdAt": "2016-04-02T13:14:38.919Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385790",
+        "male": false,
+        "house": "Faith of the Seven",
+        "slug": "Aglantine",
+        "name": "Aglantine",
+        "__v": 0,
+        "pageRank": 2.5,
+        "books": [
+            "A Feast for Crows",
+            "A Dance with Dragons"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.920Z",
+        "createdAt": "2016-04-02T13:14:38.920Z",
+        "titles": [
+            "Septa"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385791",
+        "dateOfDeath": 221,
+        "dateOfBirth": 172,
+        "imageLink": "/misc/images/characters/Aerys_I_Targaryen.jpeg",
+        "male": true,
+        "mother": "Mariah Martell",
+        "father": "Daeron II Targaryen",
+        "heir": "Rhaegel Targaryen",
+        "house": "House Targaryen",
+        "slug": "Aerys_I_Targaryen",
+        "name": "Aerys I Targaryen",
+        "__v": 0,
+        "pageRank": 187,
+        "books": [
+            
+        ],
+        "updatedAt": "2016-04-02T13:14:38.921Z",
+        "createdAt": "2016-04-02T13:14:38.921Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385792",
+        "male": false,
+        "slug": "Agrivane",
+        "name": "Agrivane",
+        "__v": 0,
+        "pageRank": 1.5,
+        "books": [
+            "A Feast for Crows"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.923Z",
+        "createdAt": "2016-04-02T13:14:38.923Z",
+        "titles": [
+            "Archmaester"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385793",
+        "imageLink": "/misc/images/characters/Aggo.jpeg",
+        "male": true,
+        "culture": "Dothraki",
+        "house": "House Targaryen",
+        "slug": "Aggo",
+        "name": "Aggo",
+        "__v": 0,
+        "pageRank": 41,
+        "books": [
+            "A Game of Thrones",
+            "A Clash of Kings",
+            "A Storm of Swords",
+            "A Feast for Crows",
+            "A Dance with Dragons"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.924Z",
+        "createdAt": "2016-04-02T13:14:38.924Z",
+        "titles": [
+            "Ko",
+            "Bloodrider of Daenerys Targaryen"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385794",
+        "dateOfDeath": 300,
+        "male": true,
+        "house": "Night's Watch",
+        "slug": "Alan",
+        "name": "Alan",
+        "__v": 0,
+        "pageRank": 0.5,
+        "books": [
+            "A Clash of Kings",
+            "A Storm of Swords",
+            "A Feast for Crows",
+            "A Dance with Dragons"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.925Z",
+        "createdAt": "2016-04-02T13:14:38.925Z",
+        "titles": [
+            
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385795",
+        "dateOfDeath": 300,
+        "male": true,
+        "culture": "Ironborn",
+        "house": "House Wynch",
+        "slug": "Aladale_Wynch",
+        "name": "Aladale Wynch",
+        "__v": 0,
+        "pageRank": 3.5,
+        "books": [
+            "A Clash of Kings",
+            "A Storm of Swords"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.925Z",
+        "createdAt": "2016-04-02T13:14:38.925Z",
+        "titles": [
+            "Ser"
+        ]
+    },
+    {
+        "_id": "56ffc5be0432440819385796",
+        "male": false,
+        "slug": "Alaric_of_Eysen",
+        "name": "Alaric of Eysen",
+        "__v": 0,
+        "pageRank": 3,
+        "books": [
+            "A Storm of Swords",
+            "A Feast for Crows"
+        ],
+        "updatedAt": "2016-04-02T13:14:38.926Z",
+        "createdAt": "2016-04-02T13:14:38.926Z",
+        "titles": [
+            
+        ]
+    }
+]
